@@ -1,0 +1,148 @@
+/*================================
+**Colors
+================================*/
+
+/*===============================
+Background: #ffffff; White
+
+Dash Background: #e5e5e5; gray
+
+Primary: #0b9444; Green
+
+Nav Gray: #e4e4e4; light Gray
+================================*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-dash-container{
+    background-color: #e5e5e5;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/*================================
+** Dash Nav
+================================*/
+.dash-nav-container{
+    background-color: #ffffff;
+    width: 7%;
+    float: left;
+    position: fixed;
+}
+
+nav li{
+    list-style: none;
+    padding: 5 15px 0 15px;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+li.logo img{
+    width: 100%;
+}
+nav li img{
+    width: 70%;
+}
+
+nav li a{
+    display: block;
+    height: 107.1px;
+    text-align: center;
+    padding: 11px 20px;
+    color: #e4e4e4;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+nav li a:hover:not(first){
+    color: #0b9444;
+    text-decoration: none;
+    border-right: 2px solid #0b9444;
+    transition: .4s;
+}
+
+nav li a span {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    
+}
+
+nav li a img:hover #dashboard{
+    fill: red;
+}
+
+
+/*================================
+** Dash Contents
+================================*/
+.dash-contents-container{
+    width: 93%;
+    float: right;
+}
+
+.dash-header{
+    width: 100%;
+    height: 75px;
+    background-color: #ffffff;
+}
+
+.user-profile{
+    padding: 25px 100px;
+    border-left: 1px solid #e5e5e5
+}
+
+.profile-container{
+    float: right;
+    width: 20%;
+}
+
+.profile-container ul{
+    padding: 17px 0 
+}
+
+.profile-container ul li {
+    display: inline;
+    padding: 5px 60px;
+    border-left: 1px solid #e5e5e5;
+}
+
+.profile-container img {
+    width: 10%;
+}
+
+.switch{
+
+}
+
+.switch img{
+    width: 70%;
+}
+
+.analytics{
+    height: 50vh;
+    background-color: blue;
+}
+
+.social-block-container{
+    margin: 70px 0;
+}
+
+.social-block{
+    width: 100%;
+    height: 300px;;
+    background-color: #ffffff;
+}
+
+.dash-footer{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px
+}
+
