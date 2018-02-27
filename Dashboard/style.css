@@ -99,7 +99,7 @@ nav li a img:hover #dashboard{
 
 .profile-container{
     float: right;
-    width: 20%;
+    width: 350px;
 }
 
 .profile-container ul{
@@ -175,7 +175,7 @@ nav li a img:hover #dashboard{
     
     .profile-container {
         float: right;
-        width: 45%;
+        width: 325px;
     }
     
     .profile-container ul {
@@ -184,7 +184,7 @@ nav li a img:hover #dashboard{
     
     .profile-container ul li {
         display: inline;
-        padding: 50px 60px;
+        padding: 56px 60px;
         border-left: 1px solid #e5e5e5;
     }
     
@@ -236,16 +236,19 @@ nav li a img:hover #dashboard{
     }
     
     .profile-container {
-        width: 100%;
+        width: 255px;
     }
     
     .profile-container ul {
         padding: 35px 0;
     }
     
+    .profile-container ul li:first-child {
+        border: none;
+    }
     .profile-container ul li {
         display: inline;
-        padding: 49px 60px;
+        padding: 52px 35px;
         border-left: 1px solid #e5e5e5;
     }
     
